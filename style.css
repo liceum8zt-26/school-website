@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(225, 255, 255);
+}
+
+.container {
+    padding: 0 80px;
+}
+
+header {
+    padding: 10px 0;
+}
