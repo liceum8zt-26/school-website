@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat';
 }
@@ -34,6 +38,13 @@ ul {
     font-size: 20px;
     font-weight: medium;
     line-height: 27px;
+    text-decoration: none;
+    color: #000000;
+    transition: .3s;
+}
+
+.menu-item:hover {
+    color: #5644EF;
 }
 
 .button {
@@ -46,6 +57,11 @@ ul {
     padding: 10px 24px;
     border-radius: 20px;
     display: flex;
+    transition: .3s;
+}
+
+.button:hover {
+    background-color: rgb(49, 31, 218);
 }
 
 .hero-section {
@@ -127,6 +143,77 @@ footer {
     padding-bottom: 40px !important;
     border-top: 1px solid #AEAEAE;
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-col-2 {
+    gap: 12px;
+}
+
+.footer-title {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+}
+
+.footer-link {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.footer-link:hover {
+    color: #5644EF;
+}
+
+.footer-col-1 {
+    justify-content: space-between;
+}
+
+.madeby {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.copyright {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 500;
+}
+
+.footer-col-3 {
+    gap: 32px;
+}
+
+.footer-subcol {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-text {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.footer-socials {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-social-icon {
+    width: 40px;
+    height: 40px;
 }
