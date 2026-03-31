@@ -239,6 +239,7 @@ footer {
 
 .news-card-image-wrapper {
     width: 100%;
+    display: block;
 }
 
 .news-card-image {
@@ -264,4 +265,5 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    width: 100%;
 }
