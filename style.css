@@ -13,19 +13,22 @@ body {
 }
 
 .container {
-    padding: 0 80px;
+    max-width: 1280px;
+    margin: 0 auto;
 }
     
 .header {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #FFFFFF;
     position: sticky;
     top: 0;
     left: 0;
+    background-color: #FFFFFF;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
 }
 
 .menu {
@@ -146,10 +149,12 @@ ul {
     margin-bottom: 32px;
 }
 
-footer {
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
+.footer {
     border-top: 1px solid #AEAEAE;
+}
+
+.footer-inner {
+    padding: 40px 0;
     display: flex;
     justify-content: space-between;
 }
