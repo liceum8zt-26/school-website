@@ -371,7 +371,25 @@ ul {
 
 @media (max-width: 1280px) {
     .menu {
-        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        opacity: 0;
+        pointer-events: none;
+        transition: .3s;
+        transform: translateX(-100%);
+    }
+
+    header.active .menu {
+        opacity: 100;
+        pointer-events: all;
+        transform: translateX(0);
     }
 
     header .button {
