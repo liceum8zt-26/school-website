@@ -486,3 +486,15 @@ header.active .burger-menu-item:nth-child(1) {
 header.active .burger-menu-item:nth-child(3) {
     transform: translateY(-10px) rotate(-45deg);
 }
+
+.contacts-form-success {
+    text-align: center;
+    color: green;
+    display: none;
+}
+
+.contacts-form-error {
+    text-align: center;
+    color: red;
+    display: none;
+}

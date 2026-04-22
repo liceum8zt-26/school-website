@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ліцей №8 міста Житомира</title>
+    <title>Найкращий сайт ліцею №8 міста Житомира</title>
+    <meta name="description" content="Ласкаво просимо на офіційний сайт ліцею №8 міста Житомира! Дізнавайтеся актуальні новини, розклад занять, інформацію про вчителів та досягнення наших учнів у зручному форматі.">
+    <meta name="keywords" content="школа,ліцей,Житомир" >
+
+    <link rel="icon" href="favicon.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +18,9 @@
 <body>
     <header class="header"> 
         <div class="container header-inner">
-            <img src="./images/logo.png" alt="Логотип">
-
+            <a href="#">
+                <img src="./images/logo.png" alt="Логотип">
+            </a>
             <nav>
                 <ul class="menu">
                     <li><a href="#about" class="menu-item">Про нас</a></li>
@@ -77,7 +82,7 @@
             <div class="news-card">
                 <div class="news-card-inner">
                     <a href="#" class="news-card-image-wrapper">
-                        <img class="news-card-image" src="./images/news-1.png" alt="">
+                        <img class="news-card-image" src="./images/news-1.png" alt="Профорієнтаційний табір в професійному коледжі індустрії краси і технологій міста Житомира">
                     </a>
                     <a href="#" class="news-card-title">
                         Профорієнтаційний табір в професійному коледжі індустрії краси і технологій міста Житомира
@@ -93,7 +98,7 @@
             <div class="news-card">
                 <div class="news-card-inner">
                     <a href="#" class="news-card-image-wrapper">
-                        <img class="news-card-image" src="./images/news-2.png" alt="">
+                        <img class="news-card-image" src="./images/news-2.png" alt="Інструктаж на виконання наказу департамента освіти про посилення заходів щодо поводження з вибухонебезпечними та підозрілими предметами">
                     </a>
                     <a href="#" class="news-card-title">
                         Інструктаж на виконання наказу департамента освіти про посилення заходів щодо поводження з вибухонебезпечними та підозрілими предметами
@@ -109,7 +114,7 @@
             <div class="news-card">
                 <div class="news-card-inner">
                     <a href="#" class="news-card-image-wrapper">
-                        <img class="news-card-image" src="./images/news-3.png" alt="">
+                        <img class="news-card-image" src="./images/news-3.png" alt="Родинне свято - “Маленькі серця - великі вечорниці”">
                     </a>
                     <a href="#" class="news-card-title">
                         Родинне свято - “Маленькі серця - великі вечорниці”
@@ -140,12 +145,14 @@
             <div class="contacts-block">
                 <h3 class="contacts-subtitle">Зв'яжіться з нами</h3>
 
-                <form class="contacts-form" action="">
+                <form class="contacts-form" action="" id="contacts-form">
                     <input name="name" class="input" type="text" placeholder="Ім'я">
                     <input name="phone" class="input" type="text" placeholder="Номер телефону">
-                    <button class="button">
+                    <button class="button" type="submit">
                         Надіслати
                     </button>
+                    <div class="contacts-form-success">Заявка надіслана успішно</div>
+                    <div class="contacts-form-error">Заявка не надіслана. Спробуйте пізніше або звʼяжіться з нами іншим способом</div>
                 </form>
 
             </div>
@@ -157,7 +164,9 @@
     <footer class="footer">
         <div class="container footer-inner">
             <div class="footer-col footer-col-1">
-                <img src="./images/logo.png" alt="Логотип">
+                <a href="#">
+                    <img src="./images/logo.png" alt="Логотип">
+                </a>
                 <div class="copyright-block">
                     <div class="madeby">Made by GURTOK</div>
                     <div class="copyright">© 2026</div>
