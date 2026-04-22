@@ -37,7 +37,7 @@ form.addEventListener('submit', async function() {
     const TELEGRAM_TOKEN = "8727345675:AAH2geBYpqrSbyBR--pBgdCIB3KyrvdI4kI";
     const TELEGRAM_CHAT_ID = "-1003032335339";
 
-    const response = await fetch("https://api.telegram.org/bot" + TELEGRAM_TOKEN + "/sendMessage?chat_id=" + TELEGRAM_CHAT_ID+ "&text=" + message);
+    const response = await fetch("https://api.telegram.org/bot" + TELEGRAM_TOKEN + "/sendMessage?chat_id=" + TELEGRAM_CHAT_ID+ "&text=" + message + "&message_thread_id=2676");
     
     if (response.ok) {
         error.style.display = 'none';
